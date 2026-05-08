@@ -1,5 +1,3 @@
-# Sunrise-Breeders-2
-
 # ☕ Sunrise Breeders - Rodeo Coffee Ordering System
 
 Welcome to **Sunrise Breeders**, a premium, feature-rich coffee ordering platform built with modern web technologies. This is a complete, production-ready solution for managing coffee orders, customer loyalty rewards, and support requests—all through an intuitive user interface and powerful admin dashboard.
@@ -426,7 +424,29 @@ Questions or found a bug? Suggestions for improvements?
 
 ## 📄 License
 
-This project is provided as-is for educational and commercial use.
+This project is licensed under the **Apache License 2.0**, a permissive open-source license.
+
+### Apache License 2.0 Summary
+
+**Permissions:**
+- ✅ Commercial Use
+- ✅ Modification
+- ✅ Distribution
+- ✅ Patent Use
+- ✅ Private Use
+
+**Conditions:**
+- 📋 License and copyright notice required
+- 📋 State changes made to the code
+
+**Limitations:**
+- ❌ No trademark use
+- ❌ No liability
+- ❌ No warranty
+
+For the full license text, see: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+
+**In simple terms:** You can use, modify, and distribute this project freely for personal and commercial purposes. Just include a copy of the license and mention any changes you made.
 
 ---
 
