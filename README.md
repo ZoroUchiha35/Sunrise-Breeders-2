@@ -1,4 +1,4 @@
-# ☕ Sunrise Breeders - Rodeo Coffee Ordering System
+# ☕ Sunrise Breeders 2 - Rodeo Coffee
 
 Welcome to **Sunrise Breeders**, a premium, feature-rich coffee ordering platform built with modern web technologies. This is a complete, production-ready solution for managing coffee orders, customer loyalty rewards, and support requests—all through an intuitive user interface and powerful admin dashboard.
 
