@@ -52,7 +52,7 @@ This project represents a **fully-functional e-commerce system** combining custo
 
 **Don't want to set up locally?** Try it now!
 
-🌐 **Visit:** <a href="popichulo.rf.gd/Coffee/login.php">Sunrise Breeders</a>
+🌐 **Visit:** [https://popichulo.rf.gd/Coffee/login.php](https://popichulo.rf.gd/Coffee/login.php)
 
 ### ⚠️ A Note on Security Warnings
 
