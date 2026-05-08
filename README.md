@@ -52,7 +52,7 @@ This project represents a **fully-functional e-commerce system** combining custo
 
 **Don't want to set up locally?** Try it now!
 
-🌐 **Visit:** [popichulo.rf.gd/Coffee/login.php](popichulo.rf.gd/Coffee/login.php)
+🌐 **Visit:** popichulo.rf.gd/Coffee/login.php
 
 ### ⚠️ A Note on Security Warnings
 
