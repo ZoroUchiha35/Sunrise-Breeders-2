@@ -320,7 +320,7 @@ Coffee/
 ├── get_notifications.php           # Notification handler
 ├── admin_dashboard.php             # Admin main interface
 ├── admin_login.php                 # Admin authentication
-├── admin_logout.php                # Admin logout
+├── admin_logout.php                # Admin logout handler
 ├── calculate_loyalty_points.php    # Loyalty calculations
 ├── loyalty_management.php          # Loyalty API
 ├── setup_loyalty.php               # Loyalty setup script
