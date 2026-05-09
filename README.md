@@ -206,12 +206,11 @@ CREATE TABLE IF NOT EXISTS customer_care (
 );
 
 CREATE TABLE IF NOT EXISTS admins (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `username` varchar(50) COLLATE utf8mb4_general_ci NOT NULL,
-  `password` varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
-  `email` varchar(100) COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
-  PRIMARY KEY (`id`)
+  id int(11) AUTO_INCREMENT PRIMARY KEY,
+  username varchar(50) COLLATE utf8mb4_general_ci NOT NULL,
+  password varchar(255) COLLATE utf8mb4_general_ci NOT NULL,
+  email varchar(100) COLLATE utf8mb4_general_ci DEFAULT NULL,
+  created_at timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 ```
 
