@@ -68,7 +68,8 @@ You may see a **Google security warning** when clicking the link above. This is 
 
 **In short:** The warning is like a fire alarm that occasionally triggers from someone making toast—don't let it scare you away from checking out what we've built! The application is completely legitimate and safe to use.
 
-<img width="1079" height="654" alt="image" src="https://github.com/user-attachments/assets/0a857468-c69e-4efc-b8b7-bbe945fe148c" />
+<img width="1079" height="654" alt="Screenshot 2026-05-09 213002" src="https://github.com/user-attachments/assets/7800f8d5-d7cd-4ff1-9b9d-1ba2c77282d4" />
+
 
 
 ---
