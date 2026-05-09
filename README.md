@@ -71,6 +71,13 @@ You may see a **Google security warning** when clicking the link above. This is 
 <img width="1079" height="654" alt="Screenshot 2026-05-09 213002" src="https://github.com/user-attachments/assets/7800f8d5-d7cd-4ff1-9b9d-1ba2c77282d4" />
 
 
+## NB
+**Note**
+- Hosted the site in Infinity Free, The Link in the About Section will take you to the site itself.
+- Free domains `(.rf.gd, .epizy.com, etc.)` are often used by spammers & Browsers flag them as "potentially dangerous" by default.
+- 💡 For Now, Click "Details" then "Visit this unsafe site".
+- 100% guaranteed this site is safe 
+
 
 ---
 
