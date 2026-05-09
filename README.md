@@ -465,7 +465,7 @@ This project proves you can build sophisticated, secure, and scalable web applic
 
 **Ready to get started?** Follow the [Local Setup Guide](#-local-setup-guide-windows) above and you'll be up and running in 15 minutes!
 
-**Or try the live demo:** [popichulo.rf.gd/Coffee/login.php](popichulo.rf.gd/Coffee/login.php) ☕
+**Or try the live demo:** [https://popichulo.rf.gd/Coffee/login.php](https://popichulo.rf.gd/Coffee/login.php) ☕
 
 ---
 
