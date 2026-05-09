@@ -205,6 +205,7 @@ CREATE TABLE IF NOT EXISTS customer_care (
     FOREIGN KEY (customer_id) REFERENCES customers(id)
 );
 
+-- Create admin table
 CREATE TABLE IF NOT EXISTS admins (
   id int(11) AUTO_INCREMENT PRIMARY KEY,
   username varchar(50) COLLATE utf8mb4_general_ci NOT NULL,
