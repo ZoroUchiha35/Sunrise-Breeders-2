@@ -20,6 +20,8 @@ This project represents a **fully-functional e-commerce system** combining custo
 <img width="1349" height="548" alt="image" src="https://github.com/user-attachments/assets/b5a81f11-531f-4ac0-b7d7-fbb25dc5ff95"/>
 
 
+
+
 ## 🎯 Core Features
 
 ### 👥 **Customer Portal**
