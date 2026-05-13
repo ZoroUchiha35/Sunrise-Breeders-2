@@ -16,6 +16,8 @@ This project represents a **fully-functional e-commerce system** combining custo
 
 ---
 
+
+
 ## 🎯 Core Features
 
 ### 👥 **Customer Portal**
