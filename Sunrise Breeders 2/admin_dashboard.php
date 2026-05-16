@@ -172,6 +172,8 @@ $avg_order = $conn->query("
         body {
             background: #F5EFE7;
             min-height: 100vh;
+            zoom: 85%;
+            transform-origin: top left;
         }
 
         /* Sidebar */
@@ -458,6 +460,16 @@ $avg_order = $conn->query("
             border-bottom: 1px solid #F0EAE0;
             color: #3D2B1F;
             font-size: 0.85rem;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+        
+        /* Address column - full visibility */
+        td:nth-child(6) {
+            max-width: 250px;
+            word-break: break-word;
+            white-space: normal;
+            line-height: 1.4;
         }
 
         tr:hover {
@@ -777,7 +789,7 @@ $avg_order = $conn->query("
                                 <td><span class="clickable-item" data-items='<?php echo json_encode($row['items'], JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_QUOT); ?>' onclick="viewItemsFromData(this)" style="font-size: 15px; color: #059669; text-decoration: underline;">View</span></td>
                                 <td><strong>$<?php echo number_format($row['total'], 2); ?></strong></td>
                                 <td><?php echo $row['phone'] ?? 'N/A'; ?></td>
-                                <td><?php echo substr($row['address'], 0, 30); ?>...</td>
+                                <td title="<?php echo htmlspecialchars($row['address']); ?>"><?php echo htmlspecialchars($row['address']); ?></td>
                                 <td><span class="badge-pending">Pending</span></td>
                                 <td>
                                     <?php if (!empty($row['instructions']) && $row['instructions'] != 'None'): ?>
@@ -837,7 +849,7 @@ $avg_order = $conn->query("
                                 <td><span class="clickable-item" data-items='<?php echo json_encode($row['items'], JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_QUOT); ?>' onclick="viewItemsFromData(this)">View Items</span></td>
                                 <td>$<?php echo number_format($row['total'], 2); ?></td>
                                 <td><?php echo $row['phone'] ?? 'N/A'; ?></td>
-                                <td><?php echo substr($row['address'], 0, 30); ?>...</td>
+                                <td title="<?php echo htmlspecialchars($row['address']); ?>"><?php echo htmlspecialchars($row['address']); ?></td>
                                 <td><span class="badge-completed">Completed</span></td>
                                 <td><?php echo date('M d, H:i', strtotime($row['created_at'])); ?></td>
                             </tr>
@@ -878,7 +890,7 @@ $avg_order = $conn->query("
                                 <td><span class="clickable-item" data-items='<?php echo json_encode($row['items'], JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_QUOT); ?>' onclick="viewItemsFromData(this)">View Items</span></td>
                                 <td>$<?php echo number_format($row['total'], 2); ?></td>
                                 <td><?php echo $row['phone'] ?? 'N/A'; ?></td>
-                                <td><?php echo substr($row['address'], 0, 30); ?>...</td>
+                                <td title="<?php echo htmlspecialchars($row['address']); ?>"><?php echo htmlspecialchars($row['address']); ?></td>
                                 <td><span class="badge-cancelled">Cancelled</span></td>
                                 <td><?php echo date('M d, H:i', strtotime($row['created_at'])); ?></td>
                             </tr>
