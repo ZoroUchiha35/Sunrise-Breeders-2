@@ -279,6 +279,10 @@ VALUES ('admin', '$2y$10$xxxxxxxxxxx', 'admin@example.com');
 
 *Or manually insert through the web interface*
 
+<img width="1350" height="629" alt="image" src="https://github.com/user-attachments/assets/e6470233-b058-4ca0-8292-628ae84ccff7" />
+
+
+
 **Place a Test Order:**
 1. Log in with the test customer account
 2. Browse and select coffee items
