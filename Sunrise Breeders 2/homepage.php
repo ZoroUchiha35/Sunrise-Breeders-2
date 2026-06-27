@@ -905,7 +905,7 @@ $join_date_formatted = date('F j, Y', strtotime(null . $join_date));
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: #FAF3E0;
+            background-color: #ffffff;
         }
 
         .cardbody {
