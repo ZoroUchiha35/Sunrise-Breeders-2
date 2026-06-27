@@ -356,7 +356,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         .divider span {
-            background: rgba(248, 241, 222, 0.95);
+            background: rgba(255, 255, 255, 0.95);
             padding: 0 1rem;
             color: #8B7355;
             font-size: 0.7rem;
