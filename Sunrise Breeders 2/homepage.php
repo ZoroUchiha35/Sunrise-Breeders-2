@@ -152,7 +152,7 @@ $join_date_formatted = date('F j, Y', strtotime(null . $join_date));
         }
         
         body {
-            background-color: #FAF3E0;
+            background-color: #ffffff;
             color: var(--text);
             line-height: 1.6;
         }
